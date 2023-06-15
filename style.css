@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	min-height: 100vh;
+	font-family: 'Montserrat', sans-serif;
+	background-color: beige;
+}
+
+.wrapper {
+	width: 800px;
+	background-color: #fff;
+	box-shadow: 0 0 10px #000;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+	flex-direction: column;
+	position: relative;
+	height: 360px;
+	padding: 20px 40px;
+	font-family: 'Bebas Neue', sans-serif;
+	background-image: url('https://images.squarespace-cdn.com/content/v1/59b20d289f7456da5994d501/1635892090952-B71GTDK2TX7X9IZXMFG8/PH_hero1.png');
+	background-size: cover;
+	background-position: center;
+	z-index: 0;
+}
+
+.shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-position: (0, 0, 0, 0.35);
+	z-index: -1;
+}
+
+h1 {
+	margin-bottom: 30px;
+	color: #fff;
+	font-style: 50px;
+}
+
+.search {
+	padding: 10px 20px;
+	margin-bottom: 40px;
+	width: 100%;
+	font-size: 16px;
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.85);
+}
+
+.drink-list {
+	padding: 20 px 40px;
+}
+
+h2 {
+	padding: 30px 0;
+}
+
+ul {
+	padding-bottom: 30px;
+	font-size: 23px;
+	list-style: none;
+}
+
+li {
+	padding: 8px 30px;
+	border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+li:last-child {
+	border-bottom: 0;
+}
